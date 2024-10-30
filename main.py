@@ -7,9 +7,9 @@ Call your function for `n = 2`, `n = 3`, `n = 5`, and `n = 12`.
 '''
 
 def print_multiples(n):
-    for i in range(1,101):
+    for i in range(101):
         if i%n == 0:
             print(i)
 
-print_multiples(12)
+print_multiples(2)
 # Tested it and the code works for when n = 2, 3, 5, and 12
